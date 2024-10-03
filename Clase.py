@@ -22,3 +22,8 @@ class Square:
    def getVal(self, val):
       return val * val
 
+class RandomCalculator:
+   def __init__(self):
+      self.operations = BasicOperations()
+      self.square = Square()
+
